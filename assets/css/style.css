@@ -789,7 +789,16 @@ transition: all .2s ease-in;
 /*Tablet Styles*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
+#navbar {
+	
+	font-size: 3vw;
+	text-align: center;
+	}
 
+#navbar-nav button {
+	font-size: 3vw;
+	margin:	auto;
+}
 /*landing*/
 
 #landing {
@@ -872,6 +881,17 @@ transition: all .2s ease-in;
 
 /*Mobile Styles*/
 @media only screen and (max-width: 400px) {
+
+	#navbar {
+	
+	font-size: 4vw;
+	text-align: center;
+	}
+
+#navbar-nav button {
+	font-size: 4vw;
+	margin:	auto;
+}
 
 	/*landing*/
 	#landing {
